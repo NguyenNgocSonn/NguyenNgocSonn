@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="text" style="font-size: 100%">Lorem ipsum dolor.</p>
+	<button type="button" onclick="cl1()">Size -</button>
+	<button type="button" onclick="cl()">Defaul</button>
+	<button type="button" onclick="cl2()">Size +</button>
+	<script type="text/javascript">
+		function cl1(){
+			var fs=
+			document.getElementById('text').style.fontSize;
+			var res = parseInt(fs.split("%")[0])-40;
+			document.getElementById('text').style.fontSize =res+ "%";
+		}
+		function cl2(){
+			var fs=
+			document.getElementById('text').style.fontSize;
+			var res = parseInt(fs.split("%")[0])+40;
+			document.getElementById('text').style.fontSize =res+ "%";
+		}
+		function cl(){
+			var fs=
+			document.getElementById('text').style.fontSize;
+			document.getElementById('text').style.fontSize ='100%';
+		}
+	</script>
+</body>
+</html>

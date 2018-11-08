@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX3</title>
+	<style type="text/css">
+	body{
+		background-color: lavender;
+		padding:0 20%;
+	}
+	.ct{
+		color: black;
+		display: none;
+		padding: 20px 0;
+	}
+	.ct>h3{
+		margin: 0;
+		padding-bottom: 20px;
+	}
+	.btn-active{
+		background: white!important;;
+	}
+	.ct-active{
+		display:block !important;
+		background: white;
+		width: 50%;
+		height: 
+		border-color: gray;
+		display: block;
+	}
+	.btn{
+		background: gray;
+		border: 0;
+	}
+</style>
+</head>
+<body>
+	
+	<div class="content">
+		<div class="btn-cover">
+			<button class="btn btn-active" onclick="bt(1)" id="tab-1">Tab 1</button>
+			<button class="btn"  onclick="bt(2)" id="tab-2">Tab 2</button>
+			<button class="btn" onclick="bt(3)" id="tab-3">Tab 3</button>
+		</div>
+		
+		<div class="ct-cover">
+			<div class="ct ct-active" id="text-1">
+				<h3>Section 1</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, nesciunt.
+			</div>
+			<div class="ct" id="text-2">
+				<h3>Section 2</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed delectus laudantium.
+			</div>
+			<div class="ct" id="text-3">
+				<h3>Section 3</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus reiciendis possimus neque tenetur, iusto eligendi voluptatibus?
+		</div>
+	</div>
+	<script type="text/javascript">
+		function bt(number){
+			var key = document.getElementsByClassName('btn-active')[0];
+			key.classList.remove('btn-active');
+			document.getElementById('tab-'+number).classList.add('btn-active')
+			key = document.getElementsByClassName('ct-active')[0];
+			key.classList.remove('ct-active')
+			document.getElementById('text-'+number).classList.add('ct-active')
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EX2</title>
+	<style type="text/css">
+	.ha{
+		background-color: #9BA991
+	}
+	.ha:hover{
+		background-color: #FFD03E;
+	}
+	#btn1{
+		background-color: #66afe3
+	}
+	#btn2{
+		background-color: #66afe3
+	}
+
+</style>
+</head>
+<body>
+	<table border='1' cellspacing='0' cellpadding='10' >
+		<tr class="ha">
+			<td><input type='checkbox' name='name' value='' /></td>
+			<td>Lorem ipsum dolor sit amet, consectetur.</td>
+		</tr>
+		<tr class="ha">
+			<td><input type='checkbox' name='name' value='' /></td>
+			<td>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
+		</tr>
+		<tr class="ha">
+			<td><input type='checkbox' name='name' value='' /></td>
+			<td>Lorem ipsum dolor sit amet.</td>
+		</tr>
+		<tr class="ha">
+			<td><input type='checkbox' name='name' value='' /></td>
+			<td>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
+		</tr>
+	</table>
+	<br/>
+	<br/>
+	<input type="button" id="btn1" value="Check All"/>
+	<input type="button" id="btn2" value="UnCheck All"/>
+	<script type="text/javascript">
+		document.getElementById("btn1").onclick = function () {
+			var checkboxes = document.getElementsByName('name');
+			for (var i = 0; i < checkboxes.length; i++){
+				checkboxes[i].checked = true;
+			}
+		};
+		document.getElementById("btn2").onclick = function () {
+			var checkboxes = document.getElementsByName('name');
+			for (var i = 0; i < checkboxes.length; i++){
+				checkboxes[i].checked = false;
+			}
+		};
+	</script>
+</body>
+</html>
