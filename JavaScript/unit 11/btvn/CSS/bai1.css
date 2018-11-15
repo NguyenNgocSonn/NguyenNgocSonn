@@ -1,0 +1,49 @@
+.wraper{
+	width: 70%;
+	margin: 0 auto;
+}
+.container {
+	/*width: 80%;*/
+	margin: 0;
+	padding: 0 60px;
+	background: #f44336;
+	padding: 2em 4em;
+	
+}
+.container input[type=text] {
+	height: 38px;
+	width: 70%;
+	padding: 0;
+	border: 0;
+}
+.container input[type=button] {
+	height: 38px;
+	width: 27%;
+	margin-left: -5px;
+	border: 0;
+}
+.container h1 {
+	text-align: center;
+	color: white;
+}
+#content1 {
+	width: 100%;
+	background: #efeeee;
+}
+#content1 td.check {
+	width: 6.5%;
+}
+#content1 td.text {
+	width: 90%;
+}
+#content1 td.del {
+	width: 10%;
+}
+#content1 > tr{
+	font-size: 18px;
+	height: 40px;
+	cursor: pointer;
+}
+#content1 > tr td:first-child {
+	padding-left: 20px;
+} 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+	<input type="text" name="" id="input" placeholder="Input Here">
+  <button id="add"> Add</button>
+	<button id="update">Update</button>
+	<button id="del-all">Delete All</button>
+	<button id="toggle-check">Toggle Check</button>
+  <div id=""></div>
+  <table>
+    <tbody id="content">
+
+    </tbody>
+  </table>
+  <script type="text/javascript" src="../JS/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $('#add').click(function(){
+        var input=$('#input').val()
+        $('table').prepend(` <tr>
+         <td>
+         <input type="checkbox" name="" class="checkbox">
+         </td>   
+         <td>
+         `+input+`
+         </td>   
+         <td>
+         <button content=`+input+` class="edit">Edit</button>
+         </td>   
+         <td>
+         <button class="del">delete</button>
+         </td>
+         </tr>`)
+        $('#input').val('')
+      })
+
+      $('body').on('click','.del',function(){
+        $(this).parent().parent().remove();
+      })
+
+      $('#toggle-check').click(function(){
+
+        var checkbox=$('.checkbox');
+        for (var i = checkbox.length - 1; i >= 0; i--){
+          checkbox[i].checked=!checkbox[i].checked
+        }
+      })
+      $('body').on('click','.edit',function(){
+        var content = $(this).attr('content')
+
+        $('#input').val(content)
+        $('#add').css('display','none');
+        $('#update').css('display','inline-block').attr('id-update')
+      })
+
+    }) 
+  </script>
+</body>
+</html>
