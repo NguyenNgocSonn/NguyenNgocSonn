@@ -1,0 +1,158 @@
+body{
+	text-align: center;
+	margin: 0 5%;
+}
+#header>.btn{
+	background-color: #ec4927;
+	border-radius: 25px;
+	font-size: 20px;
+	color: white;
+	border: 0;
+	padding: 0 23px;
+	padding-top: 7px;
+}
+#header{
+	color: white;
+	background-image: url(../image/47.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:700px;
+
+}
+#header>nav{
+	text-align: -webkit-auto;
+}
+h5{
+	color: #ec4927;
+}
+h6{
+	color: #515050;
+}
+#header>hr{
+
+	width: 90px;
+	border-top: 2px solid rgb(240,95,64)
+}
+h1{
+	padding-top: 80px;
+	padding-bottom: 25px;
+}
+p{
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+#content1{
+	background-color: #ec4927;
+	color: white;
+	padding-bottom: 80px;
+}
+#content1>hr{
+	width: 90px;
+	border-top: 2px solid rgb(255,255,255)
+}
+#content1>.btn{
+	background-color: #ffff;
+	border-radius: 25px;
+	font-size: 20px;
+	color: #000;
+	border: 0;
+	padding: 0 23px;
+	padding-top: 7px;
+}
+#content2>hr{
+
+	width: 90px;
+	border-top: 2px solid rgb(240,95,64)
+}
+.content2{
+	padding-top: 20px;
+
+}
+.content2>div>i{
+	background-color:#ec4927;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	line-height:70px;
+	text-align: center;
+	color: #ffff;
+	font-size: 30px;
+}
+.content2>div>p{
+	padding-top: 10px;
+	font-size: 21px;
+}
+.content2>div>h4{
+	padding-top: 20px;
+}
+.content2>div{
+	width:24%;
+	text-align: center;
+	display: inline-block;
+	padding-top: 80px;
+	padding: 0
+}
+#content3>img{
+	margin: 1px -1.5px;
+	height: 300px;
+	width: 33.25%;
+}
+#content4{
+	background-color: #2D2D2D;
+	padding-bottom: 80px;
+}
+#content4>h1{
+	color: white;
+}
+#content4>.btn{
+	background-color: #ffff;
+	border-radius: 25px;
+	font-size: 20px;
+	border: 0;
+	padding: 0 23px;
+	padding-top: 7px;
+}
+#footer>hr{
+	
+	width: 90px;
+	border-top: 2px solid rgb(240,95,64)
+}
+#footer>div{
+	width:24%;
+	text-align: center;
+	display: inline-block;
+	padding-top: 80px;
+	padding: 0
+}
+#footer>div>i{
+	background-color: #ec4927;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	line-height:70px;
+	text-align: center;
+	color: #ffff;
+	font-size: 30px;
+}
+@media(max-width:991px){
+		.content2>div{
+			width: 48%;
+		}
+		#content3>img{
+			margin: 1px -1.5px;
+			width: 48%;
+			height: 200px;
+		}
+
+		@media(max-width: 650px){
+			.content2>div{
+				width: 99%;
+			}
+			#content3>img{
+				margin: 1px -1.5px;
+				width: 98%;
+				height: 200px;
+
+			}
+		}
+	}
