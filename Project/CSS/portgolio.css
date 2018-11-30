@@ -1,0 +1,43 @@
+
+img {
+  max-width: 100%;
+}
+.filtr-item {
+    padding: 1rem;
+}
+
+
+/* Filter controls */
+.simplefilter{
+  padding-left: 0;
+}
+.simplefilter li{
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+.simplefilter li {
+    background-color: #818181;
+}
+.simplefilter li.active {
+    background-color: #f25713;
+}
+
+
+/* Helpers */
+.push-down {
+  margin-bottom: 50px;
+}
+
+.filtr-container {
+  transition: height 500ms ease-out;
+}
+.portfolio-ct{
+    text-align: center;
+}
+.portfolio-ct>div>p{
+    font-size: 37px;
+}

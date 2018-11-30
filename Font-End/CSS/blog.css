@@ -1,0 +1,273 @@
+
+.ct-blog{
+    display: inline-flex;
+    padding-top: 50px;
+}
+.blog-left{
+    width: 70%;
+}
+.blog-right{
+    width: 25%;
+}
+.blog1{
+    text-align: center;
+}
+.blog1>div>p{
+    font-size: 37px;
+}
+.np>a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.np>a:hover {
+    background-color: #f25713;
+     text-decoration: none;
+
+    color: black;
+}
+.round {
+    border-radius: 10%;
+}
+button{
+    background-color: #f25713;
+    border: 0;
+}
+.blog-l{
+    display: inline-flex;
+}
+#content-blog{
+padding: 50px 5%;
+/*text-align: center;*/
+}
+.blog-l>div>ul>li{
+    list-style: none;
+    line-height: 30px;
+    width: 125px;
+    height: 30px;
+    background-color: #dddcdc;
+    color: #767676;
+ margin-right: 20px;
+    
+}
+.blog-l>div>ul>li>i{
+    padding-left: 10px;
+
+}
+.blog-l>div>ul>li:hover{
+    background-color: #f25713;
+    color: white;
+    cursor: pointer;
+}
+.blog-l>div>ul>li>p{
+    margin:0;
+    background-color: #f25713;
+    color: white;
+    text-align: center;
+}
+.blog-l>div>img{
+    height: 300px;
+    width: 100%;
+}
+.blog-l>div>p{
+    font-size: 23px;
+padding: 50px 0;
+margin:0;
+}
+.blog-l>div{
+    color: #767676;
+}
+.blog-l>div>article{
+    margin:0;
+}
+.blog-l>div>button{
+    width: 125px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+   margin-bottom: 70px;
+   margin-top: 10px;
+
+}
+.blog-l>div>button:hover{
+    cursor: pointer;
+}
+
+
+
+.blog-right{
+    margin-left: 20px;
+}
+.blog-right>input{
+    width: 100%;
+    height:35px;
+    margin-bottom: 50px;
+}
+.blog-right>div>p{
+    font-size: 27px;
+    margin-top: 50px;
+}
+.blog-right>div>div{
+    /*color: black;*/
+    margin-bottom: 20px;
+}
+.blog-right>div>div>img{
+    border-radius: 10px;
+}
+.blog-right>div>div>a{
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.blog-right>div>div>a:hover{
+    color: #f25713
+}
+
+.categories>ul{
+    padding: 0;
+}
+.categories>ul>li{
+    background-color: #dddcdc;
+    color:#767676;
+    list-style: none;
+    height: 35px;
+    width: 125px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.categories>ul>li:hover{
+    background-color: #f25713;
+    color: white;
+    cursor: pointer;
+}
+.archieve>div{
+    margin:0;
+}
+.archieve>div>a{
+    display: inline-flex;
+    margin:0;
+    text-decoration: none;
+
+}
+.archieve>div>a>p{
+    margin:0;
+}
+.tagcloud>ul>li{
+height: 30px;
+ background-color: #dddcdc;
+    color: #767676;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 1.5px;
+    border-radius: 7px;
+
+}
+.tagcloud>ul>li:hover{
+   background-color: #f25713;
+    color: white;
+    cursor: pointer;
+}
+.tagcloud>ul{
+    display: inline-flex;
+    padding: 0;
+}
+.ourgallery>img{
+margin-bottom: 5px;
+    width: 30%;
+}
+.ourgallery>img:hover{
+    cursor: pointer;
+}
+@media(max-width:991px){
+    .navbar-brand>div {
+    padding-left: 30px;
+}
+.ct-blog {
+    display: inline-block;
+    width: 90%
+}
+.blog-left {
+     width: 100%; 
+}
+.ct-blog{
+font-size: 12px;
+}
+.blog-l>div>ul>li {
+    width: 95px;
+}
+.blog-l>div>img {
+    height: 300px;
+    width: 100%;
+}
+.np{
+    font-size: 14px;
+    padding: 0 110px;
+    margin-bottom: 50px
+}
+.blog-right {
+    width: 100%;
+    padding: 0 40px;
+    margin-left: 0;
+}
+.tagcloud>ul>li {
+    height: 20px;
+    
+    padding: 0px 7px;
+    
+}
+
+
+.ourgallery>img{
+    height: 60px;
+    width: 90px;
+}
+@media(max-width: 650px){
+    .blog1>div>p {
+    font-size: 30px;
+}
+.blog1>p{
+    font-size: 12px;
+}
+.blog-l {
+    display: inline-block;
+}
+.blog-l>div{
+    width: 100%;
+}
+.blog-l>div>ul{
+    padding: 0;
+    margin:0;
+}
+.blog-l>div>img {
+    height: 200px;
+    width: 100%;
+}
+.blog-l>div>ul>li {
+    width: 100%;
+}
+.ct-blog {
+    display: inline-block;
+    width: 100%;
+}
+.blog-l>div>p {
+    font-size: 17px;
+}
+.np {
+    font-size: 11px;
+    padding: 0;
+}
+.blog-right {
+    width: 100%;
+     padding: 0; 
+
+}
+.ourgallery>img {
+    height: 60px;
+    width: 30%;
+}
+}

@@ -109,7 +109,6 @@ form{
 #content3{
 	text-align: center;
 }
-
 #content3>div>p{
 	font-size: 37px;
 }
@@ -242,29 +241,4 @@ padding: 0 20px;
 }
 .footer2-left{
 	width: 100%;
-}
-@media(max-width:991px){
-#content2>div{
-	width: 24%;
-	}
-#content4>img{
-margin: 1px -1.5px;
-		width: 70%;
-height: 300px;
-}
-.content5-item{
-	width: 90%;
-}
-
-	@media(max-width: 650px){
-		#content2>div{
-			width: 99%;
-		}
-		#content4>img{
-margin: 1px -1.5px;
-		width: 98%;
-		height: 200px;
-
-}
-	}
 }
